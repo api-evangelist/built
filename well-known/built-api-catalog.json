@@ -1,0 +1,20 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://www.getbuilt.com/integrations/",
+      "service-doc": [
+        {
+          "href": "https://www.getbuilt.com/integrations/",
+          "type": "text/html"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://www.getbuilt.com/integrations/",
+          "type": "text/html",
+          "title": "Built Integrations Directory"
+        }
+      ]
+    }
+  ]
+}

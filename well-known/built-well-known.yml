@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of /.well-known/ on getbuilt.com and id.getbuilt.com
+host: https://getbuilt.com
+documents:
+- path: /.well-known/api-catalog          # RFC 9727 API catalog (linkset)
+  status: 200
+  file: built-api-catalog.json
+- path: /.well-known/security.txt          # RFC 9116
+  status: 404
+- path: /.well-known/openid-configuration   # OIDC discovery
+  status: 404
+- path: /.well-known/oauth-authorization-server  # RFC 8414
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  id.getbuilt.com returns HTTP 200 for /.well-known/openid-configuration and
+  /.well-known/oauth-authorization-server, but the body is the identity SPA's
+  HTML catch-all, not RFC 8414/OIDC JSON metadata, so those are not recorded as
+  discovery documents. The getbuilt.com api-catalog is a genuine RFC 9727
+  linkset pointing at the Built Integrations Directory.

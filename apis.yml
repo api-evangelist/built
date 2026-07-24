@@ -1,8 +1,19 @@
 aid: built
 name: Built
-description: 'Built is a company surfaced as a portfolio company of fifth-wall, index-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: construction-tech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: >-
+  Built (Built Technologies) is an AI-powered real estate and construction
+  finance platform that connects capital and information across the construction
+  lending ecosystem. It serves banks, credit unions, private credit firms,
+  owners, developers, and general contractors with construction loan
+  administration, deal origination and underwriting, project financials, invoice
+  and lien-waiver management, compliance tracking, and payments. Founded over a
+  decade ago and headquartered in Nashville and New York, Built operates on one
+  of the largest connected datasets in real estate finance and integrates with
+  Procore, Sage Intacct, Yardi, QuickBooks, Encompass, nCino, and DocuSign. It
+  is backed by Fifth Wall and Index Ventures. This profile was enriched from
+  Built's public developer and trust surfaces; Built publishes an integrations
+  directory, identity/SSO, a status page, and a trust center, but does not
+  expose a public REST API or OpenAPI.
 url: https://raw.githubusercontent.com/api-evangelist/built/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +22,31 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://getbuilt.com/wp-content/uploads/2024/10/built-red-white-logo.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Construction Tech
+- Construction Finance
+- Real Estate Finance
+- Fintech
+- Lending
+- Payments
+- Loan Administration
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +56,41 @@ maintainers:
 common:
 - type: Website
   url: https://getbuilt.com/
+- type: Documentation
+  url: https://help.getbuilt.com/
+- type: Support
+  url: https://help.getbuilt.com/
+- type: Login
+  url: https://id.getbuilt.com/
+- type: Blog
+  url: https://getbuilt.com/news
+- type: Integrations
+  url: https://getbuilt.com/integrations
+- type: ChangeLog
+  url: https://help.getbuilt.com/docs/product-release-updates.md
+- type: StatusPage
+  url: https://status.getbuilt.com/
+- type: TermsOfService
+  url: https://getbuilt.com/legal/
+- type: PrivacyPolicy
+  url: https://getbuilt.com/privacy-policy/
+- type: Compliance
+  url: https://trust.getbuilt.com/
+- type: TrustCenter
+  url: https://trust.getbuilt.com/
+- type: TrustCenter
+  name: Built Trust Center (artifact)
+  url: security/built-trust-center.yml
+- type: LLMsTxt
+  url: llms/built-llms.txt
+- type: WellKnown
+  url: well-known/built-well-known.yml
+- type: APICatalog
+  url: well-known/built-api-catalog.json
+- type: DomainSecurity
+  url: security/built-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
