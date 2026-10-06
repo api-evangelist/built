@@ -47,7 +47,7 @@ accessModel:
 image: https://getbuilt.com/wp-content/uploads/2024/10/built-red-white-logo.svg
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Construction Tech
@@ -65,6 +65,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://getbuilt.com/news/
+  type: Blog
+- url: https://getbuilt.com/news/feed/
+  type: BlogRSS
 - type: Website
   url: https://getbuilt.com/
 - type: Documentation
